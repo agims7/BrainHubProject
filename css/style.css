@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese");
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  outline: none; }
+
+body {
+  background-color: #EDEDED; }
+
+#container {
+  width: 1070px;
+  min-height: 100vh;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #F7F7F7; }
+
+.content {
+  padding: 50px 10px;
+  width: 660px;
+  margin: 0 auto; }
+  .content h1 {
+    font-size: 35px;
+    font-weight: normal;
+    text-align: left;
+    margin-bottom: 30px; }
+
+.header {
+  background-color: white;
+  padding: 15px 10px 4px;
+  margin-bottom: 20px;
+  position: relative; }
+  .header img {
+    width: 178px;
+    height: 178px;
+    position: absolute;
+    transform: rotate(15deg);
+    top: -75%;
+    right: -15%; }
+  .header h2 {
+    font-size: 16px;
+    margin: 0 10px;
+    font-weight: normal;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 8px 0;
+    color: #9c9c9c; }
+
+.bigger {
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.inputArea {
+  margin: 0 10px 20px; }
+  .inputArea #inputElement {
+    border-radius: 10px 0 0 10px;
+    font-size: 28px; }
+  .inputArea #btnSubmit {
+    border-radius: 0 10px 10px 0;
+    margin-left: -5px;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    background-color: #6ce2a2;
+    cursor: pointer; }
+
+input {
+  height: 79px;
+  line-height: 79px;
+  padding: 0 10px;
+  width: 300px;
+  display: inline-block;
+  border: 1px solid #c8c8c8;
+  box-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 1px inset; }
+
+#boxArea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto; }
+
+.boxContent {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+  .boxContent p {
+    color: #9c9c9c;
+    padding: 6px 20px; }
+  .boxContent .boxAmount {
+    min-width: 280px;
+    height: 140px;
+    background-color: white;
+    text-align: center; }
+    .boxContent .boxAmount .amountText {
+      color: #5e5e5e;
+      text-transform: uppercase;
+      padding: 17px; }
+    .boxContent .boxAmount .moneyValue {
+      font-size: 48px;
+      color: black; }
+
+/*# sourceMappingURL=style.css.map */
